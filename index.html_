@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+</head>
+<body>
+    <header>
+        <h1>My Page</h1>
+        <nav id="nav" style="text-decoration: none;">
+            <a href="#about">About me</a>
+            <a href="#Goals">My Learning Goals</a>
+            <a href="#contact">Contact me</a>
+        </nav>
+    </header>
+    <section id="about">
+        <h3>About me</h3>
+        <p>My name is Mustapha Wasiu Olawale, I'm a Mechanical Engineer working in a Fast 
+            Moving Consumer Goods (FMCG) industry, I am passionate about software engineering, and since we only live once and you can become whatever you want to be, so I am looking to switch career to software engineering.
+            I started learning web development on my own but I wasn't consistent due to work and having to take care of my family. 
+        </p> 
+    </section>
+    <article id="Goals">
+        <h3>My Learning Goals</h3>
+        <p>I joined Altschool Africa to achieve my dream of becoming a highly skilled software engineer. My learning goal is to know software engineering specifically frontend engineering well enough to get paid for it. This way, I have two great careers and I can choose whichever pays more (LOL). </p>
+   </article>
+    <script src="https://kit.fontawesome.com/75695559af.js" crossorigin="anonymous"></script>
+    <footer>
+        <p>Don't be a stranger, visit me: <a href="https://www.linkedin.com/in/wasiu-mustapha-256b26155"><i class="fa-brands fa-linkedin" style="font-size: larger"></i></a>
+        </p>
+    </footer>
+</body> 

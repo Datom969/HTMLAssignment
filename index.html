@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    <table>
+        <th><h1>Registration Form</h1></th>
+        <tr>
+            <td>Fill in your details</td>
+        </tr>
+        <tr>
+        <td>First Name *</td>
+        <td>Last name *</td></tr> 
+        <tr>
+            <td><input type="text" name="name" placeholder="Enter first name" style="height:40px" required></td>
+            <td><input type="text" name="name" placeholder="Enter last name" style="height:40px" required></td>
+        </tr>
+        <tr>
+            <td>Gender*</td>
+            <td>Date of Birth*</td>
+        </tr>
+        <tr>
+            <td><input type="text" list="gender" placeholder="Select gender" style="height:40px" required>
+                <datalist id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                </datalist></td>
+            <td><input type="date" name="date" style="height:40px; width:165px" required></td>
+        </tr>
+        <tr>
+            <td><label for=email>Email Address *</label></td>
+            <td><label for="education" >Education Level*</label></td>
+        </tr>
+        <tr>
+            <td><input type="email" name="email" style="height:40px" required></td>
+            <td> <input type="text" list="education" name="education" placeholder="Select level of education" style="height:40px" required>
+                <datalist id="education">
+                    <option value="BSc">BSc</option>
+                    <option value="MSc">MSc</option>
+                    <option value="PhD">Doctorate(PhD)</option>
+                    <option value="Undergraduate">Under Graduate</option>
+                    <option value="Highschool">High School/Secondary School</option>
+                    <option value="Post graduate">Post Graduate</option>
+                    <option value="Junior">Junior/Middle School</option>
+            </datalist></td>
+        </tr>
+        <tr>
+            <td>Country*</td>
+            <td>State/City of Residence*</td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" list="Country" placeholder="Select level of education" style="height:40px" required>
+                <datalist id="Country">
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Cameroon">Cameroon</option>
+                    <option value="Angola">Angola</option>
+                    <option value="South">South Africa</option>
+                    <option value="Others">Others</option>
+            </datalist>
+            </td>
+            <td>
+                <input type="text" name="residence" placeholder="Enter your state of residence" style="height:40px" required>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="emplyment">Employment Status*</label></td>
+            <td><label for="phone">Phone Number*</label></td>
+        </tr>
+        <tr>
+            <td><input type="text" list="school" placeholder="Select employment status" style="height:40px" required>
+                <datalist id="school">
+                <option value="employed">Employed</option>
+                <option value="unemployed">Unemployed</option>
+                <option value="self-employed">Self employed</option>
+                </datalist></td>
+            <td><input type="tel" name="phone" placeholder="0814578000" style="height:40px"></td>
+        </tr>
+        <tr>
+            <td><label for="school">Choose School*</label></td>
+            <td><label for="course">Choose Course of Study*</label></td>
+        </tr>
+        <tr>
+            <td><input type="text" list="school" placeholder="Select school" style="height:40px" required>
+                <datalist id="school">
+                <option value="engineering">School of Engineering</option>
+                <option value="data">School of Data</option>
+                <option value="creative">School of Creative Economy</option>
+                <option value="creative">School of Business</option>
+                </datalist></td>
+            <td><input type="text" list="school" placeholder="Select course" style="height:40px" required>
+                <datalist id="school">
+                <option value="frontend">Frontend engineering</option>
+                <option value="backend">Backend engineering</option>
+                <option value="data">Data analysis</option>
+                <option value="marketing">Digital marketing</option>
+                </datalist></td>
+        </tr>
+        <tr>
+            <td><label for="info">How did you hear about us*</label></td>
+            <td><label for="scholarship">Scholarship/Discount Code (optional)</label></td>
+        </tr>
+        <tr>
+            <td><input type="text" list="channel" placeholder="Select channel" style="height:40px" required>
+                <datalist id="channel">
+                <option value="employed">Twitter</option>
+                <option value="unemployed">Facebook</option>
+                <option value="self-employed">Linkedin</option>
+                <option value="self-employed">Youtube</option>
+                <option value="self-employed">Whatsapp</option>
+                <option value="self-employed">Friends</option>
+                <option value="self-employed">Instagram</option>
+                <option value="self-employed">Billboard</option>
+                </datalist></td>
+            <td><input type="text" name="discount" placeholder="Scholarship or student ID" style="height:40px">
+            </td>
+        </tr>
+</table>
+<p>
+    By clicking continue, I agree to  <a href="">Terms of Use </a>and acknowledge that I
+have read the  <a href="">Privacy Policy</a>.
+<figure>
+    <form action="" method="POST"><input type="submit" style="width:400px; height:50px; background-color:rgb(111, 111, 210); color:#fff; border:none; border-radius: 5px;" value="Proceed">
+</form>
+</figure>
+</p>   
+<p><b>Already have an account? <a href="https://portal.altschoolafrica.com/auth/login">Sign in</a></b></p>
+</body>
+</html>
